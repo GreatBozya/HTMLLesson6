@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cards{
+            display: flex;
+        }
+        .cards__item{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .cards__item-title{
+            font-size: 34px;
+            font-weight: bold;
+        }
+        .cards__item-subtitle{
+            font-size: 22px;
+            font-weight: lighter;
+        }
+        .cards__item_border_red{
+            border: 1px solid red;
+        }
+    
+        .cards__item-title_color_blue{
+            color: blue !important;
+        }
+        div{
+            color: green !important;
+        }
+        div{
+            color: orange;
+        }
+        div > a > a#header > div.cards{
+            border: 5px solid coral;
+        }
+        div a a#header div.cards{
+            border: 5px solid coral;
+        }
+    </style>
+</head>
+<!-- Блок Элемент Модификатор -->
+<body>
+    <div class="container">
+        <!-- Блок -->
+        <div class="cards">
+
+            <!-- Элемент -->
+            <div class="cards__item">
+                <!-- Элемент + модификатор -->
+                <div class="cards__item-title cards__item-title_color_blue">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt fugit possimus dolorem minus cupiditate dolore inventore quod, porro impedit? Cum nisi consectetur suscipit maxime asperiores porro dolore, voluptatibus nostrum harum.
+                </div>
+
+                <!-- Элемент -->
+                <div class="cards__item-subtitle">
+                    
+                </div>
+            </div>
+
+            <div class="cards__item cards__item_border_red">
+                <div class="cards__item-title">
+                </div>
+                <div class="cards__item-subtitle">
+                </div>
+            </div>
+            <div class="cards__item">
+                <div class="cards__item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio excepturi, facilis id, ab officiis minus quam ad commodi, natus atque autem illum! Iusto et deleniti aliquam consequuntur tempore, ducimus architecto.
+                </div>
+                <div class="cards__item-subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nam, fugiat ducimus alias necessitatibus recusandae numquam architecto unde. Officiis eveniet amet quo aliquid libero. Laboriosam sed nam facilis aperiam quo?
+                    Doloremque veniam fuga fugit explicabo at ipsum porro qui, dolorem architecto aut, excepturi est, nisi nemo eveniet laboriosam? Illum dolorum nulla saepe aut voluptas exercitationem fugiat excepturi odio iste voluptates.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
